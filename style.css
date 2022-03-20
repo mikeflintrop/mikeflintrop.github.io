@@ -62,17 +62,17 @@ padding-left: 10px;
 }
 
 #summary {
-  background-color: red;
+  background-color: lightslategray;
 }
 #accomplishments {
-  background-color: green;
+  background-color: #288DC7;
 }
 #work {
-  background-color: blue;
+  background-color: #185F7A;
 }
 #education {
-  background-color: orange;
+  background-color: #3D697A;
 }
 #contact {
-  background-color: purple;
+  background-color: darkslategray;
 }

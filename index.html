@@ -5,51 +5,51 @@
   <meta name="viewport" content="width=device-width">
   <title>Mike Flintrop Resume</title>
   <link rel="stylesheet" href="style.css" />
-  
-  <div>
-    <h1>Mike Flintrop</h1>
-    <p>Self motivated individual with a passion for bridging people and technology.
-  </div>
-  
+
 </head>
 <body>
   
   <script src="function.js"></script>
+    
+<div class="header">
+  <h1>Mike Flintrop</h1>
+  <p>Self motivated individual with a passion for bridging people and technology.
+</div>
   
-<button class="tablink" onclick="openPage('Summary', this, 'red') "id="defaultOpen">Summary</button>
-<button class="tablink" onclick="openPage('Accomplishments', this, 'green')">Accomplishments</button>
-<button class="tablink" onclick="openPage('Work', this, 'blue')">Work History</button>
-<button class="tablink" onclick="openPage('Education', this, 'orange')">Education</button>
-<button class="tablink" onclick="openPage('Contact', this, 'purple')">Contact</button>
+<button id="defaultOpen" class="tablink active" onclick="displaySection('summary', this, 'red')">Summary</button>
+<button class="tablink" onclick="displaySection('accomplishments', this, 'green')">Accomplishments</button>
+<button class="tablink" onclick="displaySection('work', this, 'blue')">Work History</button>
+<button class="tablink" onclick="displaySection('education', this, 'orange')">Education</button>
+<button class="tablink" onclick="displaySection('contact', this, 'purple')">Contact</button>
 
-<div id="Summary" class="tabcontent">
+<div id="summary" class="section">
   <h3>Professional Summary</h3>
   <p>Home is where the heart is..</p>
 </div>
 
-<div id="Accomplishments" class="tabcontent">
+<div id="accomplishments" class="section">
   <h3>Accomplishments/Skills</h3>
   <p>Some news this fine day!</p>
 </div>
 
-<div id="Work" class="tabcontent">
+<div id="work" class="section">
   <h3>Work History</h3>
   <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
-<div id="Education" class="tabcontent">
+<div id="education" class="section">
   <h3>Education</h3>
   <p>Who we are and what we do.</p>
 </div>
     
-<div id="Contact" class="tabcontent">
+<div id="contact" class="section">
   <h3>Contact</h3>
   <p>Who we are and what we do.</p>
 </div>  
 </body>
   
-<foot>
-  <h5>Updated March 2022 by Mike Flintrop</h5>
-</foot>
+<footer>
+  <h5>Updated March 2022</h5>
+</footer>
   
 </html>

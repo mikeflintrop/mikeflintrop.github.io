@@ -37,6 +37,14 @@ body, html {
   height: 100%;
 }
 
+.image-container {
+  width: 50%;
+}
+
+.image-container > img {
+  width: 100%;
+}
+
 footer {
   background-color: lightgray;
   padding-left: 100px 20px;
@@ -48,8 +56,23 @@ footer {
   display: block;
 }
 
-#summary {background-color: red;}
-#accomplishments {background-color: green;}
-#work {background-color: blue;}
-#education {background-color: orange;}
-#contact {background-color: purple;}
+#education > p {
+  font-size: 12px;
+padding-left: 10px;
+}
+
+#summary {
+  background-color: red;
+}
+#accomplishments {
+  background-color: green;
+}
+#work {
+  background-color: blue;
+}
+#education {
+  background-color: orange;
+}
+#contact {
+  background-color: purple;
+}
